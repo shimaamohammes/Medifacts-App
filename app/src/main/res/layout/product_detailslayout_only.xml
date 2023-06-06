@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/product_details_container"
+    android:background="@color/colorAccent"
+    android:elevation="3dp"
+    android:layout_margin="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/product_details_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#d4d4d4"
+        android:padding="16dp"
+        android:text="Product Details"
+        android:textColor="#9c9c9c"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/product_details_body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Yogi Kanthika can be used in the following conditions:
+Difficulty in swallowing
+Hoarseness of voice
+Throat irritation and throat pain
+Bad breath due to unproductive cough
+Acute Pharyngitis Dry sore throat, hoarseness of voice
+Acute Tonsillitis - Dry sore throat, hoarseness of voice and difficulty in swallowing
+Common Cold Coryza For sore throat
+Upper Respiratory Tract Infection Dry sore throat, Hoarseness of voice
+Acute Laryngitis Stridor cough, dry sore throat, hoarseness of voice
+Acute Epiglottitis - Stridor cough
+Influenza Unproductive cough, throat pain, throat Irritation.
+
+Use under medical supervision."
+        android:textColor="#090909"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_details_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>
